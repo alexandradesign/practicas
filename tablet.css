@@ -1,0 +1,6 @@
+/*768px de corte*/
+@media screen and (min-width: 481px){
+	body{
+		background-color: yellowgreen;
+	}
+}

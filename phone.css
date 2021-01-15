@@ -1,0 +1,6 @@
+/*el corte de pantalla lo mete en 480px en vertical y 768 en horizontal*/
+@media screen and (max-width: 480px){
+	body{
+		background-color: tomato;
+	}
+}
