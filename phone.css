@@ -92,6 +92,7 @@ a{
 		top: 50px;
 		left: -100%;
 		width: 100%;
+		transition: 1s;
 	}
 	.checked:checked ~ #menu{
 		left: 0;
