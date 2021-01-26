@@ -55,7 +55,7 @@
 		width: 100%;
 		z-index: 5;*/
 	}
-	.checked{
+	.checked #burguer{
 		display: none;
 	}
 	#main{
