@@ -10,46 +10,50 @@
 		width: 100%;
 	}
 	#header{	
-		z-index: 5;
+		/*z-index: 5;
 		position: fixed;
 		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100px;
+		left: 0;*/
+		background-color: transparent;
+		width: 100%;/*todos los objetos por defecto que trabajan en bloque ocupan el 100% no te hace falta especificarlo, siempre que tengan posición estática y no lo hayamos cambiado a fixed, que entonces si que haría falta especificarlo*/
+		/*height: 400px;*/
+		/*background-color: pink;*/
 	}
 	#menu{
 		overflow: hidden;
 		text-align: center;
-		width: 80%;
+		width: 70%;
 		margin: 0 auto;
 		height: 400px;
 		position: relative;
 	}
-	#menu li{
+	#menu > li{
 		width: 16.666%;
 		float: left;
 	}
 	#menu li .sub{
 		display: none;
-		width: 100%;
-		/*position: absolute;
-		top: 100px;
-		width: 100%;
+		width: 18%;
+		position: absolute;
+		/*left: 0;*//*para que su punto de referencia sea el menu completo, no solo el li que lo contiene*/
+		/*top: 100px;
 		z-index: 5;*/
+		overflow: hidden;
 	}
 	#menu li .sub li{
+		/*float: left;*//*si le ongo esto, en vez de en bloque hacia abajo se verá en línea en orden de lectura*/
 		/*display: block;*/
 		/*width: 20%;
 		float: left;*/
-		width: 100%;
+		/*width: 100%;*/
 	}
-	#menu li:hover > .sub{
+	#menu li:hover > .sub{/*esto es lo que despliega el submenú al pasar por encima de algunas etiquetas del menú principal*/
 		display: block;
-		position: absolute;
-		top: 40px;
+		/*position: absolute;*/
+		/*top: 40px;
 		left: 0;
 		width: 100%;
-		z-index: 5;
+		z-index: 5;*/
 	}
 	#main{
 		width: 70%;
