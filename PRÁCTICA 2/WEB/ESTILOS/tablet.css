@@ -37,8 +37,8 @@
 	#menu{
 		position: absolute;
 		top: 50px;
-		left: -100%;
-		width: 100%;
+		left: -30%;
+		width: 30%;
 		transition: 1s;
 	}
 	.checked:checked ~ #menu{
