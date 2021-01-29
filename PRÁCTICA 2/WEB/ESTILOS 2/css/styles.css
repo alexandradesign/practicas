@@ -7,12 +7,18 @@ body{
 	height: 100vh;
 }
 #header{
-	height: 10vh;
-	background-color: #ddd;
+	height: 6vh;
+	background-color: #FFFFFF;
 }
-.fa{
-	font-size: 48px;
-	color: red;
+.instagram{
+	height: 40px;
+	margin: 5px;
+}
+.fa-paper-plane{
+	font-size: 25px;
+	color: black;
+	float: right;
+	margin: 10px;
 	
 }
 #aside{
@@ -31,9 +37,9 @@ body{
 	display: inline-block;
 }
 #slider{
-	background-color: yellow;
+	background-color: white;
 	height: 15vh;
-	width: 300vw;
+	width: 600vh;
 }
 #main{
 	width: 100%;
