@@ -5,6 +5,7 @@
 }
 body{
 	height: 100vh;
+	font-family: "sans-serif";
 }
 #header{
 	height: 10vh;
@@ -54,7 +55,7 @@ body{
 }
 #main{
 	width: 100%;
-	background-color: pink;
+	background-color: white;
 	height: 65vh;
 	overflow-x: scroll;
 	scrollbar-width: none;
@@ -62,9 +63,32 @@ body{
 #main::-webkit-scrollbar , #aside::-webkit-scrollbar{
 	display: none;
 }
+.publicacion{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.bolapubli{
+	width: 7vh;
+	height: 7vh;
+	border-radius: 50%;
+	background-color: #fff;
+	border: solid 1px #666;
+	margin:  15px 20px;
+	display: inline-block;
+	overflow: hidden;
+}
+.imgpubli{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.username{
+	font-weight: 800;
+	font-size: 1.05rem;
+}
 #footer{
 	height: 10vh;
 	background-color: #FFFFFF;
+	position: fixed;
+	bottom: 0;
 }
 .bolfoot{
 	width: 5vh;
