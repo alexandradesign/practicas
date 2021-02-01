@@ -18,9 +18,7 @@ body{
 	font-size: 30px;
 	color: black;
 	float: right;
-	margin: 10px 10px 0;
-	background-color: yellow;
-	
+	margin: 10px 10px 0;	
 }
 #aside{
 	height: 15vh;
@@ -36,7 +34,19 @@ body{
 	border: solid 1px #666;
 	margin: 0 5px;
 	display: inline-block;
+	overflow: hidden;
 }
+.bolfoot{
+	width: 5vh;
+	height: 5vh;
+	border-radius: 50%;
+	background-color: #fff;
+	border: solid 1px #666;
+	margin:  15px 22px;
+	display: inline-block;
+	overflow: hidden;
+}
+
 #slider{
 	background-color: white;
 	height: 15vh;
@@ -54,6 +64,39 @@ body{
 }
 #footer{
 	height: 10vh;
-	background-color: #ddd;
+	background-color: #FFFFFF;
+}
+.bolfoot{
+	width: 5vh;
+	height: 5vh;
+	border-radius: 50%;
+	background-color: #fff;
+	border: solid 1px #666;
+	margin:  15px 22px;
+	display: inline-block;
+	overflow: hidden;
+}
+#footer{
+	text-align: center;
+}
+.foot{
+	font-size: 30px;
+}
+.fa-home{
+	margin:  15px 22px;
+}
+.fa-search{
+	margin:  15px 22px;
+}
+.fa-plus-square{
+	margin:  15px 22px;
+}
+.fa-heart{
+	margin:  15px 22px;
+}
+
+.perfil{
+	width: 100%;
+	margin: 0 auto;
 }
 
