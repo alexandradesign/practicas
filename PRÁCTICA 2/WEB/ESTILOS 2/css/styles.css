@@ -72,7 +72,7 @@ body{
 	border-radius: 50%;
 	background-color: #fff;
 	border: solid 1px #666;
-	margin:  15px 22px;
+	margin:  15px 20px;
 	display: inline-block;
 	overflow: hidden;
 }
@@ -83,16 +83,16 @@ body{
 	font-size: 30px;
 }
 .fa-home{
-	margin:  15px 22px;
+	margin:  15px 20px;
 }
 .fa-search{
-	margin:  15px 22px;
+	margin:  15px 20px;
 }
 .fa-plus-square{
-	margin:  15px 22px;
+	margin:  15px 20px;
 }
 .fa-heart{
-	margin:  15px 22px;
+	margin:  15px 20px;
 }
 
 .perfil{
