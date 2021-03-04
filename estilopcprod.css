@@ -1,0 +1,205 @@
+ul{
+    list-style-type: none;
+    margin-block-start: unset;
+    margin-block-end: unset;
+    margin-inline-start: unset;
+    margin-inline-end: unset;
+    padding-inline-start: unset;
+}
+
+body{
+	font-family: 'Oswald';
+	margin: 0;
+}
+#header{
+	width: 100%;
+    position: fixed;
+    height: 50px;
+    background: white;
+}
+#header div{
+	display: inline-block;
+	position: fixed;
+	overflow: hidden;
+}
+.logo{
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+.checked{
+	display: none;
+}
+#menu{
+	overflow: hidden;
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+    line-height: 50px;
+}
+#menu > li{
+	margin-left: 20px;
+}
+#menu li .sub{
+	display: none;
+	width: 100%;
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	z-index: 5;
+	overflow: hidden;
+	background-color: white;
+	text-align: left;
+	list-style: none;
+	margin-bottom: 30px;
+	padding-left: 40px;
+}
+.sub li{
+	margin-bottom: 20px;
+}
+.sub > li:first-child{
+	margin-top: 20px;
+}
+#menu li:hover > .sub{
+		display: block;
+}
+#menu > li{
+	display: inline-block;
+	margin-left: 20px;
+}
+#menu li a{
+	text-decoration: none;
+	color: #797979;
+}
+#burguer{
+		background-color: white;
+		width: 15px;
+		height: 15px;
+		padding-top: 15px;
+		padding-right: 15px;
+		float: right;
+	}
+	#burguer li{
+		background-color: black;
+		width: 15px;
+		height: 1px;
+		margin: 5px auto;
+		border-radius: 15px;
+	}
+
+.carretera{
+	width: 180px;
+}
+.modelos{
+	position: fixed;
+	left:200px;
+	top:70px;
+	display: none;
+	width: 200px;
+	font-family: "Roboto";
+	font-size: 14px;
+	line-height: 22px;
+}
+.personalizar{
+	position: fixed;
+	left:400px;
+	top:70px;
+	display: none;
+	width: 200px;
+	font-family: "Roboto";
+	font-size: 14px;
+	line-height: 22px;
+}
+a:hover{
+	color: black;
+}
+.titulo{
+	font-family: "Oswald";
+	font-size: 16px;
+	line-height: 22px;
+}
+.carretera:hover > .personalizar,.carretera:hover > .modelos,
+.modelos:hover, .personalizar:hover{
+	display: block;
+}
+.modelos img{
+	display: none;
+	position: fixed;
+	right: 0;
+	width: 40%;
+	height: 370px;
+	top: 50px;
+}
+.modelos .orca:hover img,.modelos .orcaaero:hover img,.modelos .avant:hover img,.modelos .terra:hover img{
+	display: block;
+}
+.personalizar img{
+	display: none;
+	position: fixed;
+	right: 0;
+	width: 40%;
+	height: 370px;
+	top: 50px;
+}
+.personalizar .orcapers:hover img,.personalizar .orcaaeropers:hover img,.personalizar .terrapers:hover img{
+	display: block;
+}
+.icons{
+	float: right;
+    top: 15px;
+    position: fixed;
+    right: 60px;
+}
+.icons li{
+	display: inline-block;
+	margin-left: 15px;
+}
+.content{
+	padding-top: 100px;
+	padding-left: 40px;
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+.enlaces li{
+	display: inline-block;
+	margin-left: 20px;
+}
+#product{
+	display: inline-block;
+	width: 50%;
+	margin-top: 150px;
+	margin-left: -50px;
+	z-index: -1;
+}
+.cambiocolor{
+	float: right;
+    display: inline-block;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+.cambiocolor li{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+.bola{
+	border: 2px solid transparent;
+}
+#bola1{
+	background-color: red;
+}
+#bola2{
+	background-color: black;
+}
+#bola3{
+	background-color: darkblue;
+}
+
+
+
+
+
