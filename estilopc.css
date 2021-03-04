@@ -71,9 +71,13 @@ body{
 	color: #797979;
 }
 
-.banner img{
+.banner {
 	width: 100%;
+	height: 600px;
 	margin: 0 auto;
+	background-image: url("img/home.jpg");
+	background-position: center;
+	background-size: cover;
 }
 .carretera{
 	width: 180px;
