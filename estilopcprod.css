@@ -199,7 +199,27 @@ a:hover{
 	background-color: darkblue;
 }
 
+#compra{
+	float: right;
+	width: 40%;
+}
 
+#compra li{
+	list-style-type: none;
+	width: 49%;
+	display: inline-block;
+	height: 40px;
+	text-align: center;
+	padding-top: 15px;
+}
+.botcompra{
+	background-color: blue;
+	color: white;
+}
+.precio{
+	background-color: black;
+	color: white;
+}
 
 
 

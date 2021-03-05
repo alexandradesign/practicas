@@ -17,8 +17,10 @@
 		background-color: white;
 		width: 15px;
 		height: 15px;
-		padding-top: 15px;
-		padding-right: 15px;
+		margin-top: 15px;
+		margin-right: 15px;
+		padding-top: 0px;
+		padding-right: 0px;
 		float: right;
 	}
 	#burguer li{

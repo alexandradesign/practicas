@@ -18,8 +18,10 @@
 		background-color: white;
 		width: 15px;
 		height: 15px;
-		padding-top: 15px;
-		padding-right: 15px;
+		margin-top: 15px;
+		margin-right: 15px;
+		padding-top: 0px;
+		padding-right: 0px;
 		float: right;
 	}
 	#burguer li{
@@ -133,7 +135,7 @@
 .cambiocolor {
     float: right;
     margin-top: -400px;
-    margin-right: 200px;
+    margin-right: 15px;
     display: block;
 }
 .cambiocolor li {
@@ -148,6 +150,11 @@
     display: block;
     width: 300px;
     margin: auto;
+}
+#compra{
+	float: right;
+	width: 100%;
+	margin-top: 40px;
 }
 	
 	
