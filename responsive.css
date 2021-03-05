@@ -1,18 +1,6 @@
-@media screen and (min-width: 993px){
-	.checked{
-		display: none;
-	}
-}
+
 @media screen and (max-width: 992px){
-.checked{
-		width: 20px;
-		height: 20px;
-		position: absolute;
-		top: 15px;
-		right: 15px;
-		z-index: 2;
-		opacity: 0;
-	}
+	
 	#burguer{
 		background-color: white;
 		width: 15px;
